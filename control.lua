@@ -4,9 +4,10 @@ end)
 
 function check_inventory(event)
     local player = game.players[event.player_index]
+    local inventory = player.get_main_inventory()
 
     local item_name = "iron-plate"
-    local item_count = player.get_item_count(item_name)
+    local item_count = inventory.get_item_count(item_name)
     game.print(player.name .. " has " .. item_count .. " of " .. item_name)
 end
 
