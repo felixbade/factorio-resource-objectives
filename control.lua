@@ -1,5 +1,5 @@
 script.on_init(function()
-    game.print('initialized')
+    game.print("Initialized")
 end)
 
 function check_inventory(event)
