@@ -1,16 +1,18 @@
 local objectives = {
     {
         item = "stone",
-        quantity = 1,
-        note = "Tip: find some big rocks."
+        quantity = 30,
+        note = "Tip: try finding some big rocks."
     },
     {
         item = "coal",
-        quantity = 1
+        quantity = 30
+        note = "Tip: huge rocks have coal inside."
     },
     {
         item = "iron-plate",
-        quantity = 100
+        quantity = 50,
+        note = "Tip: when you hold a coal over a machine, you can press Z to insert one. You can also hold Z and drag the coal over multiple machines."
     }
 }
 
