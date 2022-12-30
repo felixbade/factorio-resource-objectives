@@ -3,7 +3,8 @@ script.on_init(function()
 end)
 
 function check_inventory(event)
-    game.print("Checking inventory on tick"..event.tick)
+    local player = game.players[event.player_index]
+    game.print("Checking inventory of "..player.name)
 end
 
 script.on_event(defines.events.on_player_main_inventory_changed, check_inventory)
