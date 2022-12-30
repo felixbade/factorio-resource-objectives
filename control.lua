@@ -37,7 +37,6 @@ end
 
 script.on_init(function()
     global.current_objective = 1
-    game.print("Initialized")
 end)
 
 function update_goal_text(player, silent)
