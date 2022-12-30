@@ -13,6 +13,11 @@ local objectives = {
         item = "iron-plate",
         quantity = 50,
         note = "Tip: when you hold a coal over a machine, you can press Z to insert one. You can also hold Z and drag the coal over multiple machines."
+    },
+    {
+        item = "coal",
+        quantity = 200,
+        note = "Tip: burner drills can feed directly into each other."
     }
 }
 
