@@ -64,6 +64,10 @@ function update_goal_text(player, silent)
         ": " .. has_amount .. "/" .. objective.quantity
     }
 
+    if objective.note then
+        table.insert(goal_description, "\n\n" .. objective.note)
+    end
+
     player.set_goal_description(goal_description, silent)
 
     if has_amount >= objective.quantity then
