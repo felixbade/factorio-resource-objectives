@@ -8,7 +8,7 @@ end)
 function update_goal_text(player, silent)
     local inventory = player.get_main_inventory()
     local has_amount = inventory.get_item_count(item_name)
-    local localized_name = game.get_localised_item_name(item_name)
+    local localized_name = game.item_prototypes[item_name].localised_name
 
     local goal = "Have resources in your inventory:\n"
     goal = goal .. "[item=" .. item_name .. "] " .. localized_name .. ": "
