@@ -55,6 +55,165 @@ local objectives = {
         item = "assembling-machine-1",
         quantity = 1,
         note = "Tip: assembling machines can really speed you up, even if you hand-feed them."
+    },
+    {
+        item = "gun-turret",
+        quantity = 2,
+        note = "Tip: you might want a machine gun and armor as well."
+    },
+    {
+        item = "firearm-magazine",
+        quantity = 100,
+        note = "Tip: you can't have too many assembling machines."
+    },
+    {
+        item = "raw-fish",
+        quantity = 50,
+        note = "Tip: it heals you in battle."
+    },
+    {
+        item = "small-electric-pole",
+        quantity = 50
+    },
+    {
+        item = "transport-belt",
+        quantity = 100
+    },
+    {
+        item = "inserter",
+        quantity = 100
+    },
+    {
+        item = "iron-gear-wheel",
+        quantity = 1000
+    },
+    {
+        item = "electronic-circuit",
+        quantity = 500
+    },
+    {
+        item = "assembling-machine-1",
+        quantity = 50
+    },
+    {
+        item = "gun-turret",
+        quantity = 50
+    },
+    {
+        item = "logistic-science-pack",
+        quantity = 100
+    },
+    {
+        item = "fast-inserter",
+        quantity = 10
+    },
+    {
+        item = "steel-plate",
+        quantity = 100
+    },
+    {
+        item = "fast-transport-belt",
+        quantity = 100
+    },
+    {
+        item = "engine-unit",
+        quantity = 15
+    },
+    {
+        item = "car",
+        quantity = 1
+    },
+    {
+        item = "piercing-rounds-magazine",
+        quantity = 500
+    },
+    {
+        item = "military-science-pack",
+        quantity = 50
+    },
+    {
+        item = "big-electric-pole",
+        quantity = 50
+    },
+    {
+        item = "pumpjack",
+        quantity = 5
+    },
+    {
+        item = "flamethrower-turret",
+        quantity = 5
+    },
+    {
+        item = "rail",
+        quantity = 1000
+    },
+    {
+        item = "rail-chain-signal",
+        quantity = 10
+    },
+    {
+        item = "plastic-bar",
+        quantity = 1
+    },
+    {
+        item = "sulfur",
+        quantity = 1
+    },
+    {
+        item = "advanced-circuit",
+        quantity = 500
+    },
+    {
+        item = "stack-inserter",
+        quantity = 20
+    },
+    {
+        item = "chemical-science-pack",
+        quantity = 50
+    },
+    {
+        item = "cannon-shell",
+        quantity = 100
+    },
+    {
+        item = "flamethrower-ammo",
+        quantity = 100
+    },
+    {
+        item = "electric-engine-unit",
+        quantity = 100
+    },
+    {
+        item = "flying-robot-frame",
+        quantity = 100
+    },
+    {
+        item = "roboport",
+        quantity = 1
+    },
+    {
+        item = "utility-science-pack",
+        quantity = 200
+    },
+    {
+        item = "productivity-module-3",
+        quantity = 1
+    },
+    {
+        item = "space-science-pack",
+        quantity = 500
+    },
+    {
+        item = "artillery-shell",
+        quantity = 200
+    },
+    {
+        item = "atomic-bomb",
+        quantity = 1
+    },
+    {
+        item = "spidertron-remote",
+        quantity = 1
     }
 }
 
