@@ -41,6 +41,20 @@ local objectives = {
     {
         item = "pipe-to-ground",
         quantity = 10
+    },
+    {
+        item = "lab",
+        quantity = 1,
+        note = "Tip: you will need electricity for using it."
+    },
+    {
+        item = "automation-science-pack",
+        quantity = 5
+    },
+    {
+        item = "assembling-machine-1",
+        quantity = 1,
+        note = "Tip: assembling machines can really speed you up, even if you hand-feed them."
     }
 }
 
