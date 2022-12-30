@@ -19,7 +19,7 @@ function next_objective()
     if global.current_objective > #objectives then
         player.set_goal_description("") -- Hide objective pop-up
     else
-        for _, player in ipairs(game.players) do
+        for _, player in pairs(game.players) do
             update_goal_text(player, false)
         end
     end
