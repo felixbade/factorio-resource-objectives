@@ -18,6 +18,20 @@ local objectives = {
         item = "coal",
         quantity = 200,
         note = "Tip: burner drills can feed directly into each other."
+    },
+    {
+        item = "stone-brick",
+        quantity = 50,
+        note = "Tip: you can build a stone path with them to increase walking speed."
+    },
+    {
+        item = "copper-plate",
+        quantity = 20,
+        note = "Tip: ctrl+click a furnace to take everything out."
+    },
+    {
+        item = "pipe-to-ground",
+        quantity = 10
     }
 }
 
