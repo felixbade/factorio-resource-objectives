@@ -20,6 +20,11 @@ local objectives = {
         note = "Tip: burner drills can feed directly into each other."
     },
     {
+        item = "iron-gear-wheel",
+        quantity = 30,
+        note = "Tip: having intermediate materials in your inventory significantly speeds up crafting more complex recipes."
+    },
+    {
         item = "stone-brick",
         quantity = 50,
         note = "Tip: you can build a stone path with them to increase walking speed."
@@ -28,6 +33,10 @@ local objectives = {
         item = "copper-plate",
         quantity = 20,
         note = "Tip: ctrl+click a furnace to take everything out."
+    },
+    {
+        item = "electronic-circuit",
+        quantity = 20
     },
     {
         item = "pipe-to-ground",
