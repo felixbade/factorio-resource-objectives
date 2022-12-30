@@ -19,7 +19,9 @@ local objectives = {
 function next_objective()
     global.current_objective = (global.current_objective or 0) + 1
     if global.current_objective > #objectives then
-        player.set_goal_description("") -- Hide objective pop-up
+        for _, player in pairs(game.players) do
+            player.set_goal_description("") -- Hide objective pop-up
+        end
     else
         for _, player in pairs(game.players) do
             update_goal_text(player, false)
