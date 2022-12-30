@@ -6,7 +6,7 @@ local objectives = {
     },
     {
         item = "coal",
-        quantity = 30
+        quantity = 30,
         note = "Tip: huge rocks have coal inside."
     },
     {
