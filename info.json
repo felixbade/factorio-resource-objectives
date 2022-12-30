@@ -1,0 +1,9 @@
+{
+    "name": "ResourceObjectives",
+    "version": "0.0.1",
+    "title": "Resource Objectives",
+    "author": "Felix Bade",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "Craft specific items to earn small bonuses."
+}
