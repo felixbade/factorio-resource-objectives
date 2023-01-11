@@ -113,6 +113,10 @@ local objectives = {
         quantity = 50
     },
     {
+        item = "assembling-machine-2",
+        quantity = 50
+    },
+    {
         item = "fast-transport-belt",
         quantity = 100
     },
