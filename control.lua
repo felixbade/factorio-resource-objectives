@@ -96,6 +96,10 @@ local objectives = {
         quantity = 10
     },
     {
+        item = "firearm-magazine",
+        quantity = 1000
+    },
+    {
         item = "logistic-science-pack",
         quantity = 100
     },
