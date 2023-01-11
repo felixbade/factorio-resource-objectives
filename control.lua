@@ -235,7 +235,7 @@ function reward(player)
     game.print({
         "",
         player.name .. " earned " .. objective.quantity .. " x ",
-        {"item-name." .. objective.item}
+        game.item_prototypes[objective.item].localised_name
     })
     player.insert{name=objective.item, count=objective.quantity}
 end
@@ -265,7 +265,7 @@ function update_goal_text(player, silent)
         "", -- A special key for concatenating
         "Have resources in your inventory:\n",
         "[item=" .. objective.item .. "] ",
-        {"item-name." .. objective.item},
+        game.item_prototypes[objective.item].localised_name,
         ": " .. has_amount .. "/" .. objective.quantity
     }
 
