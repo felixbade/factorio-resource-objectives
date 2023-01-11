@@ -97,7 +97,8 @@ local objectives = {
     },
     {
         item = "firearm-magazine",
-        quantity = 1000
+        quantity = 1000,
+        note = "Tip: you might want to use electric miners."
     },
     {
         item = "logistic-science-pack",
