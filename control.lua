@@ -92,20 +92,12 @@ local objectives = {
         quantity = 500
     },
     {
-        item = "assembling-machine-1",
-        quantity = 50
-    },
-    {
-        item = "gun-turret",
-        quantity = 50
+        item = "fast-inserter",
+        quantity = 10
     },
     {
         item = "logistic-science-pack",
         quantity = 100
-    },
-    {
-        item = "fast-inserter",
-        quantity = 10
     },
     {
         item = "steel-plate",
