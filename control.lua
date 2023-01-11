@@ -109,6 +109,10 @@ local objectives = {
         quantity = 100
     },
     {
+        item = "gun-turret",
+        quantity = 50
+    },
+    {
         item = "fast-transport-belt",
         quantity = 100
     },
