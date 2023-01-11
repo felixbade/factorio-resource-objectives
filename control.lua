@@ -101,16 +101,16 @@ local objectives = {
         note = "Tip: you might want to use electric miners."
     },
     {
+        item = "gun-turret",
+        quantity = 50
+    },
+    {
         item = "logistic-science-pack",
         quantity = 100
     },
     {
         item = "steel-plate",
         quantity = 100
-    },
-    {
-        item = "gun-turret",
-        quantity = 50
     },
     {
         item = "assembling-machine-2",
