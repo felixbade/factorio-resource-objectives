@@ -278,7 +278,7 @@ function reward(player)
         game.print({
             "",
             player.name .. " earned " .. resource.quantity .. " x ",
-            {"entity-name." .. resource.item}
+            game.item_prototypes[resource.item].localised_name
         })
         player.insert{name=resource.item, count=resource.quantity}
     end
@@ -312,7 +312,7 @@ function update_goal_text(player, silent)
         end
 
         table.insert(goal_description, "\n[item=" .. resource.item .. "] ")
-        table.insert(goal_description, {"entity-name." .. resource.item})
+        table.insert(goal_description, game.item_prototypes[resource.item].localised_name)
         table.insert(goal_description, ": " .. has_amount .. "/" .. resource.quantity)
     end
 
