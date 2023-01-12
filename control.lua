@@ -232,6 +232,14 @@ local objectives = {
     }
 }
 
+function get_current_objective()
+    local objective = objectives[global.current_objective]
+    if objective[1] == nil then
+        return {objective}
+    end
+    return objective
+end
+
 function next_objective()
     global.current_objective = (global.current_objective or 0) + 1
     if global.current_objective > #objectives then
@@ -246,7 +254,7 @@ function next_objective()
 end
 
 function is_goal_met(player)
-    local objective = objectives[global.current_objective]
+    local objective = get_current_objective()
     local inventory = player.get_main_inventory()
 
     if inventory == nil then
@@ -265,7 +273,7 @@ function is_goal_met(player)
 end
 
 function reward(player)
-    local objective = objectives[global.current_objective]
+    local objective = get_current_objective()
     for _, resource in pairs(objective) do
         game.print({
             "",
@@ -284,7 +292,7 @@ function update_goal_text(player, silent)
     if global.current_objective > #objectives then
         return
     end
-    local objective = objectives[global.current_objective]
+    local objective = get_current_objective()
 
     local inventory = player.get_main_inventory()
 
