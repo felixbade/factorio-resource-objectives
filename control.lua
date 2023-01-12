@@ -149,12 +149,22 @@ local objectives = {
         quantity = 5
     },
     {
-        item = "rail",
-        quantity = 1000
+        {
+            item = "rail-signal",
+            quantity = 10
+        },
+        {
+            item = "rail-chain-signal",
+            quantity = 10
+        }
     },
     {
         item = "rail-chain-signal",
         quantity = 10
+    },
+    {
+        item = "rail",
+        quantity = 1000
     },
     {
         item = "plastic-bar",
@@ -235,14 +245,35 @@ function next_objective()
     end
 end
 
+function is_goal_met(player)
+    local objective = objectives[global.current_objective]
+    local inventory = player.get_main_inventory()
+
+    if inventory == nil then
+        return false
+    end
+
+    for _, resource in pairs(objective) do
+        local has_amount = inventory.get_item_count(resource.item)
+
+        if has_amount < resource.quantity then
+            return false
+        end
+    end
+
+    return true
+end
+
 function reward(player)
     local objective = objectives[global.current_objective]
-    game.print({
-        "",
-        player.name .. " earned " .. objective.quantity .. " x ",
-        game.item_prototypes[objective.item].localised_name
-    })
-    player.insert{name=objective.item, count=objective.quantity}
+    for _, resource in pairs(objective) do
+        game.print({
+            "",
+            player.name .. " earned " .. resource.quantity .. " x ",
+            {"entity-name." .. resource.item}
+        })
+        player.insert{name=resource.item, count=resource.quantity}
+    end
 end
 
 script.on_init(function()
@@ -257,22 +288,25 @@ function update_goal_text(player, silent)
 
     local inventory = player.get_main_inventory()
 
-    local has_amount = 0
-    if inventory ~= nil then
-        -- Bug: the player doesn't have an inventory during the spaceship
-        -- crash cut scene, so the has_amount will be 0 in the beginning of
-        -- the game even if there is something. The amount will be updated
-        -- once the player's inventory is changed in some way.
-        has_amount = inventory.get_item_count(objective.item)
-    end
-
     local goal_description = {
         "", -- A special key for concatenating
-        "Have resources in your inventory:\n",
-        "[item=" .. objective.item .. "] ",
-        game.item_prototypes[objective.item].localised_name,
-        ": " .. has_amount .. "/" .. objective.quantity
+        "Have resources in your inventory:\n"
     }
+
+    for _, resource in pairs(objective) do
+        local has_amount = 0
+        if inventory ~= nil then
+            -- Bug: the player doesn't have an inventory during the spaceship
+            -- crash cut scene, so the has_amount will be 0 in the beginning of
+            -- the game even if there is something. The amount will be updated
+            -- once the player's inventory is changed in some way.
+            has_amount = inventory.get_item_count(resource.item)
+        end
+
+        table.insert(goal_description, "\n[item=" .. resource.item .. "] ")
+        table.insert(goal_description, {"entity-name." .. resource.item})
+        table.insert(goal_description, ": " .. has_amount .. "/" .. resource.quantity)
+    end
 
     if objective.note then
         table.insert(goal_description, "\n\n" .. objective.note)
@@ -280,7 +314,7 @@ function update_goal_text(player, silent)
 
     player.set_goal_description(goal_description, silent)
 
-    if has_amount >= objective.quantity then
+    if is_goal_met(player) then
         reward(player)
         next_objective()
     end
