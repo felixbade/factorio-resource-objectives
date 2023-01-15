@@ -287,29 +287,20 @@ local objectives = {
     {
         items = {
             {
-                item = "rail-signal",
-                quantity = 10
-            },
-            {
-                item = "rail-chain-signal",
-                quantity = 10
-            }
-        },
-        note = "Tip: just do it"
-    },
-    {
-        items = {
-            {
-                item = "rail-chain-signal",
-                quantity = 10
+                item = "rail",
+                quantity = 1000
             }
         }
     },
     {
         items = {
             {
-                item = "rail",
-                quantity = 1000
+                item = "rail-signal",
+                quantity = 10
+            },
+            {
+                item = "rail-chain-signal",
+                quantity = 10
             }
         }
     },
