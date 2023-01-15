@@ -21,6 +21,9 @@ commands.add_command("previous_objective", nil, function(command)
     if global.current_objective > 1 then
         global.current_objective = global.current_objective - 1
     end
+    for _, player in pairs(game.players) do
+        update_goal_text(player, false)
+    end
 end)
 
 function is_goal_met(player)
