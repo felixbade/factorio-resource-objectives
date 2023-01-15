@@ -166,6 +166,26 @@ local objectives = {
     {
         items = {
             {
+                item = "iron-chest",
+                quantity = 20
+            },
+            {
+                item = "long-handed-inserter",
+                quantity = 20
+            },
+            {
+                item = "fast-inserter",
+                quantity = 10
+            },
+            {
+                item = "radar",
+                quantity = 1
+            }
+        }
+    },
+    {
+        items = {
+            {
                 item = "iron-gear-wheel",
                 quantity = 1000
             },
@@ -194,14 +214,6 @@ local objectives = {
                 item = "logistic-science-pack",
                 quantity = 100
             }
-            -- {
-            --     item = "fast-inserter",
-            --     quantity = 10
-            -- },
-            -- {
-            --     item = "iron-chest",
-            --     quantity = 10
-            -- }
         }
     },
     {
