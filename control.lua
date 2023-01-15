@@ -17,6 +17,10 @@ function next_objective()
     end
 end
 
+commands.add_command("next_objective", nil, function(command)
+    next_objective()
+end)
+
 commands.add_command("previous_objective", nil, function(command)
     if global.current_objective > 1 then
         global.current_objective = global.current_objective - 1
