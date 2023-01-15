@@ -261,8 +261,24 @@ local objectives = {
     {
         items = {
             {
+                item = "steel-furnace",
+                quantity = 48
+            }
+        }
+    },
+    {
+        items = {
+            {
                 item = "fast-transport-belt",
                 quantity = 100
+            },
+            {
+                item = "fast-underground-belt",
+                quantity = 20
+            },
+            {
+                item = "fast-splitter",
+                quantity = 10
             }
         }
     },
