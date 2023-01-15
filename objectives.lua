@@ -134,67 +134,60 @@ local objectives = {
     {
         items = {
             {
+                item = "electric-mining-drill",
+                quantity = 15
+            },
+            {
+                item = "stone-furnace",
+                quantity = 24
+            },
+            {
                 item = "small-electric-pole",
                 quantity = 50
-            }
-        }
-    },
-    {
-        items = {
+            },
             {
                 item = "transport-belt",
                 quantity = 100
-            }
-        }
-    },
-    {
-        items = {
+            },
             {
                 item = "inserter",
-                quantity = 100
+                quantity = 50
+            },
+            {
+                item = "splitter",
+                quantity = 5
+            },
+            {
+                item = "underground-belt",
+                quantity = 10
             }
-        }
+        },
+        note = "Tip: 15 electric miners and 24 furnaces will saturate one side of a yellow belt, but you might need to use them for different resources in the beginning."
     },
     {
         items = {
             {
                 item = "iron-gear-wheel",
                 quantity = 1000
-            }
-        }
-    },
-    {
-        items = {
+            },
             {
                 item = "electronic-circuit",
                 quantity = 500
             }
-        }
-    },
-    {
-        items = {
-            {
-                item = "fast-inserter",
-                quantity = 10
-            }
-        }
-    },
-    {
-        items = {
-            {
-                item = "firearm-magazine",
-                quantity = 1000
-            }
         },
-        note = "Tip: you might want to use electric miners."
+        note = "Tip: you will need a lot more in the future, so better to automate the production and logistics."
     },
     {
         items = {
             {
                 item = "gun-turret",
                 quantity = 50
+            },
+            {
+                item = "firearm-magazine",
+                quantity = 1000
             }
-        }
+        },
     },
     {
         items = {
@@ -202,6 +195,14 @@ local objectives = {
                 item = "logistic-science-pack",
                 quantity = 100
             }
+            -- {
+            --     item = "fast-inserter",
+            --     quantity = 10
+            -- },
+            -- {
+            --     item = "iron-chest",
+            --     quantity = 10
+            -- }
         }
     },
     {
