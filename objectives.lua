@@ -160,12 +160,9 @@ local objectives = {
             {
                 item = "underground-belt",
                 quantity = 10
-            },
-            {
-                item = "fast-inserter",
-                quantity = 10
             }
-        }
+        },
+        note = "Tip: fast inserters are handy."
     },
     {
         items = {
@@ -178,7 +175,7 @@ local objectives = {
                 quantity = 500
             }
         },
-        note = "Tip: you will need a lot more in the future, so better to automate the production and logistics."
+        note = "Tip: you will need a lot more in the future, so better to make a long-term solution."
     },
     {
         items = {
