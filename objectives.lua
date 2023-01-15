@@ -169,13 +169,17 @@ local objectives = {
             {
                 item = "iron-gear-wheel",
                 quantity = 1000
-            },
+            }
+        },
+        note = "Tip: you will need a lot more in the future, so better to make a long-term solution."
+    },
+    {
+        items = {
             {
                 item = "electronic-circuit",
                 quantity = 500
             }
-        },
-        note = "Tip: you will need a lot more in the future, so better to make a long-term solution."
+        }
     },
     {
         items = {
