@@ -161,8 +161,7 @@ local objectives = {
                 item = "underground-belt",
                 quantity = 10
             }
-        },
-        note = "Tip: 15 electric miners and 24 furnaces will saturate one side of a yellow belt, but you might need to use them for different resources in the beginning."
+        }
     },
     {
         items = {
