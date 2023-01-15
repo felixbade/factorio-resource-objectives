@@ -29,6 +29,15 @@ local objectives = {
     {
         items = {
             {
+                item = "raw-fish",
+                quantity = 50
+            }
+        },
+        note = "Tip: it heals you in battle. You might want to put it to a hot key."
+    },
+    {
+        items = {
+            {
                 item = "coal",
                 quantity = 200
             }
@@ -121,15 +130,6 @@ local objectives = {
             }
         },
         note = "Tip: you can't have too many assembling machines."
-    },
-    {
-        items = {
-            {
-                item = "raw-fish",
-                quantity = 50
-            }
-        },
-        note = "Tip: it heals you in battle."
     },
     {
         items = {
