@@ -443,11 +443,7 @@ local objectives = {
 }
 
 function get_current_objective()
-    local objective = objectives[global.current_objective]
-    if objective[1] == nil then
-        return {objective}
-    end
-    return objective
+    return objectives[global.current_objective]
 end
 
 function next_objective()
@@ -471,7 +467,7 @@ function is_goal_met(player)
         return false
     end
 
-    for _, resource in pairs(objective) do
+    for _, resource in pairs(objective.items) do
         local has_amount = inventory.get_item_count(resource.item)
 
         if has_amount < resource.quantity then
@@ -484,7 +480,7 @@ end
 
 function reward(player)
     local objective = get_current_objective()
-    for _, resource in pairs(objective) do
+    for _, resource in pairs(objective.items) do
         game.print({
             "",
             player.name .. " earned " .. resource.quantity .. " x ",
@@ -511,7 +507,7 @@ function update_goal_text(player, silent)
         "Have resources in your inventory:\n"
     }
 
-    for _, resource in pairs(objective) do
+    for _, resource in pairs(objective.items) do
         local has_amount = 0
         if inventory ~= nil then
             -- Bug: the player doesn't have an inventory during the spaceship
