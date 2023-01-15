@@ -160,26 +160,10 @@ local objectives = {
             {
                 item = "underground-belt",
                 quantity = 10
-            }
-        }
-    },
-    {
-        items = {
-            {
-                item = "iron-chest",
-                quantity = 20
-            },
-            {
-                item = "long-handed-inserter",
-                quantity = 20
             },
             {
                 item = "fast-inserter",
                 quantity = 10
-            },
-            {
-                item = "radar",
-                quantity = 1
             }
         }
     },
