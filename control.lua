@@ -62,8 +62,9 @@ function update_goal_text(player, silent)
 
     local goal_description = {
         "", -- A special key for concatenating
-        "Have resources in your inventory:\n"
     }
+
+    local goal_append = "Have resources in your inventory:\n"
 
     for _, resource in pairs(objective.items) do
         local has_amount = 0
@@ -75,14 +76,20 @@ function update_goal_text(player, silent)
             has_amount = inventory.get_item_count(resource.item)
         end
 
-        table.insert(goal_description, "\n[item=" .. resource.item .. "] ")
+        goal_append = goal_append .. "\n[item=" .. resource.item .. "] "
+        table.insert(goal_description, goal_append)
+        goal_append = ""
+
         table.insert(goal_description, game.item_prototypes[resource.item].localised_name)
-        table.insert(goal_description, ": " .. has_amount .. "/" .. resource.quantity)
+
+        goal_append = goal_append .. ": " .. has_amount .. "/" .. resource.quantity
     end
 
     if objective.note then
-        table.insert(goal_description, "\n\n" .. objective.note)
+        
+        goal_append = goal_append .. "\n\n" .. objective.note
     end
+    table.insert(goal_description, goal_append)
 
     player.set_goal_description(goal_description, silent)
 
