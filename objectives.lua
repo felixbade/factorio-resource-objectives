@@ -196,6 +196,47 @@ local objectives = {
     {
         items = {
             {
+                item = "transport-belt",
+                quantity = 500
+            },
+            {
+                item = "underground-belt",
+                quantity = 100
+            },
+            {
+                item = "splitter",
+                quantity = 50
+            },
+            {
+                item = "inserter",
+                quantity = 500
+            },
+            {
+                item = "long-handed-inserter",
+                quantity = 100
+            },
+            {
+                item = "fast-inserter",
+                quantity = 50
+            },
+            {
+                item = "pipe",
+                quantity = 100
+            },
+            {
+                item = "assembling-machine-1",
+                quantity = 50
+            },
+            {
+                item = "electric-mining-drill",
+                quantity = 50
+            },
+        },
+        note = "Tip: make a mall."
+    },
+    {
+        items = {
+            {
                 item = "logistic-science-pack",
                 quantity = 100
             }
