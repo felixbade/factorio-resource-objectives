@@ -17,6 +17,12 @@ function next_objective()
     end
 end
 
+commands.add_command("previous_objective", nil, function(command)
+    if global.current_objective > 1 then
+        global.current_objective = global.current_objective - 1
+    end
+end)
+
 function is_goal_met(player)
     local objective = get_current_objective()
     local inventory = player.get_main_inventory()
