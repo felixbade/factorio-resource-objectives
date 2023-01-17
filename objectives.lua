@@ -319,6 +319,10 @@ local objectives = {
             {
                 item = "big-electric-pole",
                 quantity = 50
+            },
+            {
+                item = "medium-electric-pole",
+                quantity = 50
             }
         }
     },
