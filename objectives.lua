@@ -362,15 +362,11 @@ local objectives = {
         items = {
             {
                 item = "plastic-bar",
-                quantity = 1
-            }
-        }
-    },
-    {
-        items = {
+                quantity = 100
+            },
             {
                 item = "sulfur",
-                quantity = 1
+                quantity = 50
             }
         }
     },
