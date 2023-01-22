@@ -40,6 +40,11 @@ function log_analytics(line)
     )
 end
 
+commands.add_command("ro_feedback", nil, function(command)
+    log_analytics("Comment: " .. command.parameter)
+    game.print("Saved comment to analytics log with the current game timestamp.")
+end)
+
 commands.add_command("ro_save_analytics", nil, function(command)
     log_analytics("Saving analytics file.")
     local data = global.analytics_output
