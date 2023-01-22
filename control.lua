@@ -34,6 +34,7 @@ commands.add_command("ro_save_analytics", nil, function(command)
     local data = "global.current_objective = " .. global.current_objective
     local filename = "resource_objectives_analytics.txt"
     game.write_file(filename, data, false, command.player_index)
+    game.print("Saved analytics to factorio/script-output/" .. filename)
 end)
 
 function is_goal_met(player)
