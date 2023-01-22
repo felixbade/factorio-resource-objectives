@@ -30,6 +30,12 @@ commands.add_command("previous_objective", nil, function(command)
     end
 end)
 
+commands.add_command("ro_save_analytics", nil, function(command)
+    local data = "global.current_objective = " .. global.current_objective
+    local filename = "resource_objectives_analytics.txt"
+    game.write_file(filename, data, false, command.player_index)
+end)
+
 function is_goal_met(player)
     local objective = get_current_objective()
     local inventory = player.get_main_inventory()
