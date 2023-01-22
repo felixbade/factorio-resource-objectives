@@ -38,11 +38,11 @@ local objectives = {
         items = {
             {
                 item = "iron-gear-wheel",
-                quantity = 30
+                quantity = 50
             },
             {
                 item = "electronic-circuit",
-                quantity = 20
+                quantity = 30
             }
         },
         note = "Tip: having intermediate materials in your inventory speeds up crafting more complex recipes."
@@ -51,7 +51,7 @@ local objectives = {
         items = {
             {
                 item = "stone-brick",
-                quantity = 75
+                quantity = 100
             }
         },
         note = "Tip: you can build a stone path with them to increase walking speed."
@@ -86,16 +86,8 @@ local objectives = {
     {
         items = {
             {
-                item = "electric-mining-drill",
-                quantity = 15
-            },
-            {
                 item = "stone-furnace",
                 quantity = 24
-            },
-            {
-                item = "small-electric-pole",
-                quantity = 50
             },
             {
                 item = "transport-belt",
@@ -104,17 +96,8 @@ local objectives = {
             {
                 item = "inserter",
                 quantity = 50
-            },
-            {
-                item = "splitter",
-                quantity = 5
-            },
-            {
-                item = "underground-belt",
-                quantity = 10
             }
-        },
-        note = "Tip: fast inserters are handy."
+        }
     },
     {
         items = {
@@ -334,7 +317,7 @@ local objectives = {
         items = {
             {
                 item = "advanced-circuit",
-                quantity = 500
+                quantity = 2000
             }
         }
     },
