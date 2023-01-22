@@ -31,7 +31,9 @@ commands.add_command("previous_objective", nil, function(command)
 end)
 
 commands.add_command("ro_save_analytics", nil, function(command)
-    local data = "global.current_objective = " .. global.current_objective
+    local data = "global.current_objective = " .. global.current_objective .. "\n"
+    data = data .. "ticks = " .. game.ticks_played .. "\n"
+
     local filename = "resource_objectives_analytics.txt"
     game.write_file(filename, data, false, command.player_index)
     game.print("Saved analytics to factorio/script-output/" .. filename)
