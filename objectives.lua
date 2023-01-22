@@ -29,7 +29,7 @@ local objectives = {
         items = {
             {
                 item = "coal",
-                quantity = 200
+                quantity = 250
             }
         },
         note = "Tip: burner drills can feed directly into each other."
@@ -51,22 +51,10 @@ local objectives = {
         items = {
             {
                 item = "stone-brick",
-                quantity = 50
+                quantity = 75
             }
         },
         note = "Tip: you can build a stone path with them to increase walking speed."
-    },
-    {
-        items = {
-            {
-                item = "lab",
-                quantity = 1
-            },
-            {
-                item = "automation-science-pack",
-                quantity = 5
-            }
-        }
     },
     {
         items = {
