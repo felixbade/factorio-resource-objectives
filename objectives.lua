@@ -3,19 +3,18 @@ local objectives = {
         items = {
             {
                 item = "stone",
-                quantity = 30
-            }
-        },
-        note = "Tip: try finding some big rocks."
-    },
-    {
-        items = {
+                quantity = 50
+            },
             {
                 item = "coal",
                 quantity = 30
+            },
+            {
+                item = "raw-fish",
+                quantity = 50
             }
         },
-        note = "Tip: huge rocks have coal inside."
+        note = "Tip: try finding some big rocks and huge rocks."
     },
     {
         items = {
@@ -25,15 +24,6 @@ local objectives = {
             }
         },
         note = "Tip: when you hold a coal over a machine, you can press Z to insert one. You can also hold Z and drag the coal over multiple machines."
-    },
-    {
-        items = {
-            {
-                item = "raw-fish",
-                quantity = 50
-            }
-        },
-        note = "Tip: it heals you in battle. You might want to put it to a hot key."
     },
     {
         items = {
@@ -49,9 +39,13 @@ local objectives = {
             {
                 item = "iron-gear-wheel",
                 quantity = 30
+            },
+            {
+                item = "electronic-circuit",
+                quantity = 20
             }
         },
-        note = "Tip: having intermediate materials in your inventory significantly speeds up crafting more complex recipes."
+        note = "Tip: having intermediate materials in your inventory speeds up crafting more complex recipes."
     },
     {
         items = {
@@ -65,39 +59,9 @@ local objectives = {
     {
         items = {
             {
-                item = "copper-plate",
-                quantity = 20
-            }
-        },
-        note = "Tip: ctrl+click a furnace to take everything out."
-    },
-    {
-        items = {
-            {
-                item = "electronic-circuit",
-                quantity = 20
-            }
-        }
-    },
-    {
-        items = {
-            {
-                item = "pipe-to-ground",
-                quantity = 10
-            }
-        }
-    },
-    {
-        items = {
-            {
                 item = "lab",
                 quantity = 1
-            }
-        },
-        note = "Tip: you will need electricity for using it."
-    },
-    {
-        items = {
+            },
             {
                 item = "automation-science-pack",
                 quantity = 5
@@ -108,7 +72,7 @@ local objectives = {
         items = {
             {
                 item = "assembling-machine-1",
-                quantity = 1
+                quantity = 2
             }
         },
         note = "Tip: assembling machines can really speed you up, even if you hand-feed them."
@@ -236,6 +200,10 @@ local objectives = {
     },
     {
         items = {
+            {
+                item = "automation-science-pack",
+                quantity = 100
+            },
             {
                 item = "logistic-science-pack",
                 quantity = 100
