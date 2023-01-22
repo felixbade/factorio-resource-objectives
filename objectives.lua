@@ -297,7 +297,7 @@ local objectives = {
             },
             {
                 item = "rail-chain-signal",
-                quantity = 10
+                quantity = 15
             }
         }
     },
@@ -324,15 +324,11 @@ local objectives = {
     {
         items = {
             {
-                item = "stack-inserter",
-                quantity = 20
-            }
-        }
-    },
-    {
-        items = {
+                item = "laser-turret",
+                quantity = 50
+            },
             {
-                item = "chemical-science-pack",
+                item = "accumulator",
                 quantity = 50
             }
         }
@@ -341,14 +337,6 @@ local objectives = {
         items = {
             {
                 item = "cannon-shell",
-                quantity = 100
-            }
-        }
-    },
-    {
-        items = {
-            {
-                item = "flamethrower-ammo",
                 quantity = 100
             }
         }
