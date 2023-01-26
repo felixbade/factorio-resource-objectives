@@ -86,12 +86,8 @@ local objectives = {
     {
         items = {
             {
-                item = "stone-furnace",
-                quantity = 24
-            },
-            {
                 item = "transport-belt",
-                quantity = 100
+                quantity = 200
             },
             {
                 item = "inserter",
@@ -144,11 +140,11 @@ local objectives = {
             },
             {
                 item = "inserter",
-                quantity = 500
+                quantity = 100
             },
             {
                 item = "long-handed-inserter",
-                quantity = 100
+                quantity = 50
             },
             {
                 item = "fast-inserter",
@@ -184,21 +180,9 @@ local objectives = {
     {
         items = {
             {
-                item = "steel-plate",
-                quantity = 100
-            }
-        }
-    },
-    {
-        items = {
-            {
                 item = "assembling-machine-2",
                 quantity = 50
-            }
-        }
-    },
-    {
-        items = {
+            },
             {
                 item = "steel-furnace",
                 quantity = 48
@@ -284,13 +268,21 @@ local objectives = {
     {
         items = {
             {
-                item = "rail",
-                quantity = 1000
+                item = "plastic-bar",
+                quantity = 100
+            },
+            {
+                item = "sulfur",
+                quantity = 50
             }
         }
     },
     {
         items = {
+            {
+                item = "rail",
+                quantity = 1000
+            },
             {
                 item = "rail-signal",
                 quantity = 10
@@ -298,18 +290,6 @@ local objectives = {
             {
                 item = "rail-chain-signal",
                 quantity = 15
-            }
-        }
-    },
-    {
-        items = {
-            {
-                item = "plastic-bar",
-                quantity = 100
-            },
-            {
-                item = "sulfur",
-                quantity = 50
             }
         }
     },
@@ -353,7 +333,7 @@ local objectives = {
         items = {
             {
                 item = "flying-robot-frame",
-                quantity = 100
+                quantity = 200
             }
         }
     },
@@ -361,7 +341,7 @@ local objectives = {
         items = {
             {
                 item = "roboport",
-                quantity = 1
+                quantity = 4
             }
         }
     },
