@@ -33,7 +33,7 @@ end)
 function log_analytics(line)
     global.analytics_output = (
         (global.analytics_output or "") ..
-        "[0.6.5] " .. -- mod version
+        "[0.6.6] " .. -- mod version
         "[" .. game.ticks_played .. "] " ..
         line ..
         "\n"
