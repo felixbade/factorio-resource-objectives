@@ -40,6 +40,7 @@ Version: 0.6.2
 Date: 2023-01-22
   Features:
     - Added command `/ro_feedback` for saving player comments to analytics log file
+
   Balancing:
     - Objective #3: Increased coal from 200 to 250 (too easy)
     - Objective #5: Increased stone bricks from 50 to 75 (too easy)
@@ -109,6 +110,7 @@ Version: 0.5.0
 Date: 2023-01-15
   Features:
     - Added command `/previous_objective` for continuing playing after updating this mod to a new version.
+
   Balancing:
     - Objective #16: Merged two mall objectives into one and remove some items (too boring/similar)
 ---------------------------------------------------------------------------------------------------
@@ -156,6 +158,7 @@ Version: 0.4.0
 Date: 2023-01-12
   Features:
     - Added support for multiple items in the same objective.
+
   Bugfixes:
     - Fixed localising names for items that can be built as buildings.
 ---------------------------------------------------------------------------------------------------
@@ -214,6 +217,7 @@ Version: 0.0.14
 Date: 2022-12-30
   Features:
     - Objective #4: Added 200 coal.
+
   Bugfixes:
     - The mod no longer crashes Factorio after completing all objectives.
 ---------------------------------------------------------------------------------------------------
@@ -246,6 +250,7 @@ Version: 0.0.9
 Date: 2022-12-30
   Features:
     - Joining players in multiplayer see the current objective.
+
   Bugfixes:
     - The mod no longer crashes Factorio if it's present in the beginning of a game, when the player does not yet have an inventory.
 ---------------------------------------------------------------------------------------------------
