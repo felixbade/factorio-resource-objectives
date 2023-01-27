@@ -178,12 +178,12 @@ Date: 2023-01-11
 Version: 0.3.1
 Date: 2023-01-11
   Balancing:
-    - Update objectives
+    - Update objectives.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 2023-01-11
   Bugfixes:
-    - Fixed localising names for items that can be built as buildings
+    - Fixed localising names for items that can be built as buildings. (https://forums.factorio.com/viewtopic.php?t=104588)
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2022-12-31
@@ -266,7 +266,7 @@ Date: 2022-12-30
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 2022-12-30
-  Features:
+  Bugfixes:
     - The items are now counted only from the player's main inventory (since that's the one that triggers the counting).
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.4
