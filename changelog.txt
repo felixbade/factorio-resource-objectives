@@ -1,0 +1,285 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.6.5
+Date: 2023-01-26
+  Balancing:
+    - Objective #9: Removed 24 stone furnaces (too easy, distracting)
+    - Objective #9: Increased transport belts from 100 to 200 (too easy, very needed)
+    - Objective #13: Reduced inserters from 500 to 100 (boring, not needed for the factory)
+    - Objective #13: Reduced long-handed inserters from 100 to 50 (not needed)
+    - Before objective #15: Removed the objective of 100 steel plates. (too easy and following objectives need steel plates anyway)
+    - Objective #15: Merged two objectives with 50 assembling machine 2 and 48 steel furnaces. (too easy separately)
+    - Objective #24: Moved plastic bar and sulfur before rails
+    - Objective #25: Merged rails and rail signal objectives
+    - Objective #30: Increased flying robot frames from 100 to 200 (very needed)
+    - Objective #31: Increased roboports from 1 to 4 (very needed)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.4
+Date: 2023-01-23
+  Balancing:
+    - Objective #27: Increased rail chain signals from 10 to 15 (more needed than rail signals)
+    - Before objective #30: Removed objective 20 stack inserters (too easy)
+    - Before objective #30: Removed objective 50 chemical science packs (boring)
+    - Objective #30: Added objective 50 laser turrets and 50 accumulators (military needed, requires a nice amount of research)
+    - Before objective #32: Removed objective 100 flamethrower ammo (too easy/late/boring)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.3
+Date: 2023-01-23
+  Balancing:
+    - Objective #4: Increased gears from 30 to 50 (too easy, very needed)
+    - Objective #4: Increased green circuits from 20 to 30 (too easy, very needed)
+    - Objective #5: Increased stone bricks from 75 to 100 (too easy)
+    - Objective #9: Removed 15 electric miners, 50 small power poles, 5 splitters and 10 underground belts (too hard)
+    - Objective #29: Increased red circuits from 500 to 2000 (too easy and needed, 2k is one rail vagon of plastic)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 2023-01-22
+  Features:
+    - Added command `/ro_feedback` for saving player comments to analytics log file
+  Balancing:
+    - Objective #3: Increased coal from 200 to 250 (too easy)
+    - Objective #5: Increased stone bricks from 50 to 75 (too easy)
+    - Before objective #6: Removed objective 1 lab and 5 red science (too easy and the following objective needs this anyway)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.1
+Date: 2023-01-22
+  Balancing:
+    - Objective #1: Merged stone, coal and fish objectives (too easy)
+    - Objective #1: Increased stone from 30 to 50 (too easy and very needed)
+    - Objective #4: Merged 30 gears and 20 electronic circuits (too easy)
+    - Before objective #6: Removed 20 copper plate (too easy, needed for electronic circuits anyway)
+    - Before objective #6: Removed 10 underground pipes (too opinionated / game-specific)
+    - Objective #7: Increased assembling machines from 1 to 2 (bigger reward for the research)
+    - Objective #15: Added 100 red science packs to the objective of 100 green science packs (bigger reward, feels more aligned with the game)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.0
+Date: 2023-01-22
+  Features:
+    - Added analytics and command `/ro_save_analytics` to write the analytics output to a file
+---------------------------------------------------------------------------------------------------
+Version: 0.5.8
+Date: 2023-01-17
+  Balancing:
+    - Objective #30: Add 50 medium electric poles with 50 big electric poles (very needed)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.7
+Date: 2023-01-17
+  Balancing:
+    - Objective #35: Combine plastic and sulfur objectives (can be researched in parallel)
+    - Objective #35: Increase plastic from 1 to 100 (bigger reward)
+    - Objective #35: Increase sulfur from 1 to 50 (bigger reward)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+Date: 2023-01-15
+  Balancing:
+    - Objective #24: Add 48 steel furnaces objective (next one is too hard)
+    - Objective #25: Add 20 fast underground belts and 10 fast splitters to 100 fast belts objective (too easy, very needed)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+Date: 2023-01-15
+  Balancing:
+    - Objective #20: Add a mall objective with 9 different items (very needed)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 2023-01-15
+  Balancing:
+    - Objectives #17 and #18: Split 1000 gears and 500 green circuits (too hard)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 2023-01-15
+  Features:
+    - Added command `/next_objective` for continuing playing after updating this mod to a new version.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 2023-01-15
+  Balancing:
+    - Objective #16: Remove fast inserters from the objective, and mention about them in the tip (too hard)
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 2023-01-15
+  Distribution:
+    - Added thumbnail.png
+    - First version published on mods.factorio.com
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2023-01-15
+  Features:
+    - Added command `/previous_objective` for continuing playing after updating this mod to a new version.
+  Balancing:
+    - Objective #16: Merged two mall objectives into one and remove some items (too boring/similar)
+---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+Date: 2023-01-15
+  Balancing:
+    - Objective #17: Added another mall objective.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+Date: 2023-01-15
+  Bugfixes:
+    - Objective #16: Removed a long tip text, which together with a long list of items made the objective UI annoyingly big.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 2023-01-15
+  Bugfixes:
+    - Increased maximum amount of resources per objective from 6 to 9 items (localisation rendering issue).
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 2023-01-15
+  Balancing:
+    - Objective #4: Moved raw fish objective much earlier (too easy, very needed)
+    - Objective #16: Merged multiple electric mining-related objectives into one and added some more items (too easy, very needed)
+    - Objective #17: Merged 1000 gears and 500 electronic circuits objectives (more parallelizeable)
+    - Before objective #18: Removed 20 fast inserters objective (too easy/boring)
+    - Objective #18: Merged 50 gun turrets and 1000 ammo (more parallelizeable)
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 2023-01-15
+  Balancing:
+    - Objective #35: Moved 1000 rails objective before signals (more needed this way)
+    - After objective #36: Removed duplicate objective
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 2023-01-15
+  Refactoring:
+    - Moved objectives to a separate Lua file from the main logic file.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2023-01-15
+  Refactoring:
+    - Changed the objective list format to support both tips and multiple items at the same time.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2023-01-12
+  Features:
+    - Added support for multiple items in the same objective.
+  Bugfixes:
+    - Fixed localising names for items that can be built as buildings.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2023-01-11
+  Balancing:
+    - Objective #23: Moved 50 gun turrets earlier (very needed)
+    - Objective #26: Added 50 assembling machine 2
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2023-01-11
+  Balancing:
+    - Objective #26: Added 50 gun turrets (very needed)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2023-01-11
+  Balancing:
+    - Objective #22: Added 1000 ammo (next objective is too easy, this is very needed)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2023-01-11
+  Balancing:
+    - Update objectives
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2023-01-11
+  Bugfixes:
+    - Fixed localising names for items that can be built as buildings
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2022-12-31
+  Features:
+    - Added 39 objectives. From 2 gun turrets to post-rocket stuff.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2022-12-30
+  Features:
+    - Objective #10: Added 1 lab
+    - Objective #11: Added 5 red science packs
+    - Objective #12: Added 1 assembling machine
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2022-12-30
+  Features:
+    - Objective #5: Added 30 gears
+    - Objective #8: Added 20 electronic circuits
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2022-12-30
+  Features:
+    - Objective #5: Added 50 stone bricks.
+    - Objective #6: Added 20 copper plates.
+    - Objective #7: Added 10 underground pipes (for power plant)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.14
+Date: 2022-12-30
+  Features:
+    - Objective #4: Added 200 coal.
+  Bugfixes:
+    - The mod no longer crashes Factorio after completing all objectives.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.13
+Date: 2022-12-30
+  Balancing:
+    - Objective #1: Increased stone from 1 to 30 (bigger reward)
+    - Objective #2: Increased coal from 1 to 30 (bigger reward)
+    - Objective #3: Reduced iron plates from 100 to 50 (too hard/boring)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+Date: 2022-12-30
+  Features:
+    - Added support for displaying a tip/note for the current objective.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.11
+Date: 2022-12-30
+  Bugfixes:
+    - Removed "Initialized" debug print.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 2022-12-30
+  Features:
+    - Added support for multiple objectives
+    - Added two new objectives.
+    - Added a reward for completed objectives (the same resources as the objective).
+    - Remember the current objective in the game save file.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 2022-12-30
+  Features:
+    - Joining players in multiplayer see the current objective.
+  Bugfixes:
+    - The mod no longer crashes Factorio if it's present in the beginning of a game, when the player does not yet have an inventory.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 2022-12-30
+  Bugfixes:
+    - The mod no longer crashes Factorio when the objective is updated (a bug with rendering localised item names).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 2022-12-30
+  Bugfixes:
+    - The mod no longer crashes Factorio when it's present (localised text rendering).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2022-12-30
+  Features:
+    - The mod now sets the game objective that displays the needed resources.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2022-12-30
+  Features:
+    - The items are now counted only from the player's main inventory (since that's the one that triggers the counting).
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2022-12-30
+  Features:
+    - The mod now counts the number of iron plates the player has in its inventory.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2022-12-30
+  Features:
+    - The mod now prints the player name of the player who's inventory is changed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2022-12-30
+  Features:
+    - The mod now prints a message to the game chat when a player's main inventory is updated.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2022-12-30
+  Features:
+    - The mod now prints "initialized" to the game chat on the first time the mod is run in the save.
